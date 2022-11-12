@@ -1,0 +1,59 @@
+/* below 425px */
+@media (max-width: 425px) {
+  .header-container {
+    margin-left: 1.5rem;
+  }
+
+  .text-1 {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+
+  .h1-text {
+    color: #08fdd8;
+    font-size: 3.2rem;
+  }
+
+  .main-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1.6rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  /*skills */
+  .skills-container {
+    width: 90%;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  /* about me */
+  .section-about {
+    margin: 0.5rem;
+  }
+
+  /* works */
+  .section-works {
+    margin: 0.5rem;
+  }
+  .works-container {
+    margin: 1rem 1rem;
+    gap: 1rem;
+  }
+
+  .img-work {
+    width: 100%;
+    height: auto;
+    border: 2px solid #08fdd8;
+  }
+
+  .textbox-2 {
+    font-size: 0.8rem;
+  }
+}
