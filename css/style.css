@@ -127,13 +127,27 @@ body {
 }
 
 .outer-line {
-  height: 4px;
+  height: 5px;
   background-color: #373737;
 }
 
 .inter-line {
-  height: 4px;
-  background-color: #08fdd8;
+  height: 5px;
+  background: linear-gradient(90deg, #373737, #08fdd8);
+  background-size: 400% 400%;
+  animation: anim 5.5s infinite ease-in-out;
+}
+
+@keyframes anim {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .html-line {
